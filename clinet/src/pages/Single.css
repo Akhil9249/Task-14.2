@@ -1,0 +1,113 @@
+.Single-main{
+    width: 100%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.Single-main-top{
+    width: 100%;
+    height: 80%;
+    /* height: 90%; */
+    /* background-color: rgb(43, 226, 83); */
+    display: flex;
+    justify-content: space-between;
+}
+.Single-main-top-left{
+    width: 48%;
+    height: 100%;
+    background-color: rgb(241, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Single-main-top-left-in{
+    width: 200px;
+    height: 250px;
+    /* background-color: brown; */
+}
+.Product-image-in{
+    width: 100%;
+    height: 100%;
+    /* image background white remove */
+    mix-blend-mode: multiply;
+}
+.Single-main-top-right{
+    width: 48%;
+    height: 100%;
+    /* background-color: rgb(226, 116, 43); */
+}
+.Single-main-top-right h2{
+    /* color: aqua; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(75, 72, 72);
+}
+.product-price{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(86, 86, 199);
+}
+.Stok-count{
+    color: rgb(148, 136, 136);
+}
+
+.Single-main-top-right-in{
+    width: 150px;
+    height: 45px;
+    /* background-color: rgb(43, 214, 226); */
+    background-color: rgb(19, 17, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+
+}
+.Single-main-top-right-in-image{
+    width: 15px;
+    height: 15px;
+    /* background-color: rgb(185, 37, 37); */
+}
+.Single-main-top-right-in p{
+    color: white;
+}
+.Single-main-top-right-in-bottom{
+    
+    height: 90px;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* color: rgb(141, 135, 135); */
+}
+.Single-main-top-right-in-bottom h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* color: rgb(46, 41, 41); */
+    color: rgb(80, 75, 75);
+}
+.Single-main-bottom{
+    width: 100%;
+    height: 10%;
+    /* height: 20%; */
+    background-color: rgb(223, 217, 217);
+    display: flex;
+    flex-direction: row-reverse;
+    cursor: pointer;
+}
+.Single-main-bottom div{
+    width: 80px;
+    height: 40px;
+    color: black;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Single-main-bottom h4{
+    color: white;
+}

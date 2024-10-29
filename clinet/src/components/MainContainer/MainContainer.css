@@ -1,0 +1,51 @@
+.LandPage-right-top-main{
+    width: 100%;
+    height: 10%;
+    /* background-color: rgb(43, 226, 58); */
+    display: flex;
+    justify-content: space-between;
+}
+.LandPage-right-top-sub-left{
+    width: 35%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+.LandPage-right-top-input{
+    width: 300px;
+    height: 30px;
+    /* background-color: rgb(29, 15, 223); */
+    border-radius: 20px;
+}
+.Search-input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(241, 235, 235);
+    border-radius: 7px;
+    padding: 5px;
+    padding-left: 10px;
+    /* background: transparent; */
+
+}
+.LandPage-right-top-sub-right{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(255, 136, 0); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.LandPage-right-top-sub-right-first-sub{
+    width: 30px;
+    height: 30px;
+    /* background-color: blue; */
+}
+.LandPage-right-top-sub-right-second-sub{
+    width: 150px;
+    height: 30px;
+    /* background-color: blue; */
+    /* background-color: #0000FF; */
+}

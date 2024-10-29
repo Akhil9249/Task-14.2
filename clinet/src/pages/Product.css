@@ -1,0 +1,49 @@
+.LandPage-right-bottom-main-sub{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(241, 235, 235);
+    /* background-color: rgb(63, 58, 58); */
+  
+    border-radius: 10px;
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+  }
+  .Product-image{
+    width: 100px;
+    height: 120px;
+}
+.Product-image-in{
+    width: 100px;
+    height: 120px;
+    /* image background white remove */
+    mix-blend-mode: multiply;
+}
+
+.Product-logo{
+    width: 20px;
+    height: 20px;
+    /* background-color: blueviolet; */
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.Product-name{
+    width: 80px;
+    height: 20px;
+    /* background-color: blueviolet; */
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+.Product-price-tag{
+    width: 50px;
+height: 20px;
+/* background-color: rgb(226, 43, 89); */
+position: absolute;
+right: 5px;
+bottom: 5px;
+}
